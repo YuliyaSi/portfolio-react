@@ -1,9 +1,9 @@
 import React from 'react';
-import style from "./Services.module.css"
+import "./Services.css"
 
-const Services = (props) => {
+const Services = () => {
     return (
-        <div>Services</div>
+        <section id={'services'}>Services</section>
     );
 }
 

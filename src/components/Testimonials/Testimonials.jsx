@@ -1,9 +1,9 @@
 import React from 'react';
-import style from "./Testimonials.module.css"
+import "./Testimonials.css"
 
-const Testimonials = (props) => {
+const Testimonials = () => {
     return (
-        <div>Testimonials</div>
+        <section id={'testimonials'}>Testimonials</section>
     );
 }
 

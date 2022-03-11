@@ -1,9 +1,9 @@
 import React from 'react';
-import style from "./Contact.module.css"
+import "./Contact.css"
 
-const Contact = (props) => {
+const Contact = () => {
     return (
-        <div>Contact</div>
+        <section id={'contact'}>Contact</section>
     );
 }
 

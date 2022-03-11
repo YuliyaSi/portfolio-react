@@ -1,9 +1,9 @@
 import React from 'react';
-import style from "./Portfolio.module.css"
+import "./Portfolio.css"
 
-const Portfolio = (props) => {
+const Portfolio = () => {
     return (
-        <div>Portfolio</div>
+        <section id={'portfolio'}>Portfolio</section>
     );
 }
 

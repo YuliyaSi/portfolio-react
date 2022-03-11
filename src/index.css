@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
   margin: 0;
@@ -32,7 +32,7 @@ html {
 }
 
 body {
-  font-family: 'Glory', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
@@ -55,6 +55,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -94,7 +95,7 @@ a:hover {
 .btn:hover {
   background: var(--color-white);
   color: var(--color-bg);
-  background-color: transparent;
+  border-color: transparent;
 }
 
 .btn-primary {
