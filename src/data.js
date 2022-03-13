@@ -1,82 +1,51 @@
-import IMG1 from "./assets/portfolio1.jpg";
-import IMG2 from "./assets/portfolio2.jpg";
-import IMG3 from "./assets/portfolio3.jpg";
-import IMG4 from "./assets/portfolio4.jpg";
-import IMG5 from "./assets/portfolio5.png";
-import IMG6 from "./assets/portfolio6.jpg";
-import AVT1 from "./assets/avatar1.jpg"
-import AVT2 from "./assets/avatar2.jpg"
-import AVT3 from "./assets/avatar3.jpg"
-import AVT4 from "./assets/avatar4.jpg"
+import IMG1 from "./assets/port-travel.jpg";
+import IMG2 from "./assets/port-poke.jpg";
+import IMG3 from "./assets/port-cv.jpg";
+import IMG4 from "./assets/port-network.jpg";
+import IMG5 from "./assets/port-chat.jpg";
+import IMG6 from "./assets/port-commerce.jpg";
 
 export const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'Chart templates and infographics in Figma',
-        github: 'https://github.com/YuliyaSi',
-        demo: 'https://dribbble.com/Alien_pixels'
+        title: 'React Travel Advisor with using GoogleAPI and RapidAPI',
+        github: 'https://github.com/YuliyaSi/travel-advisor',
+        demo: 'https://travel-advisor-yuliya.netlify.app/'
     },
     {
         id: 2,
         image: IMG2,
-        title: 'Chart',
-        github: 'https://github.com/YuliyaSi',
-        demo: 'https://dribbble.com/Alien_pixels'
+        title: 'React Pokedex with using pokeAPI',
+        github: 'https://github.com/YuliyaSi/pokedex',
+        demo: ''
     },
     {
         id: 3,
         image: IMG3,
-        title: 'Chart templates in Figma',
-        github: 'https://github.com/YuliyaSi',
-        demo: 'https://dribbble.com/Alien_pixels'
+        title: 'React Porfolio with EmailjsAPI',
+        github: 'https://github.com/YuliyaSi/portfolio-react',
+        demo: ''
     },
     {
         id: 4,
         image: IMG4,
-        title: 'Chart templates and infographics',
-        github: 'https://github.com/YuliyaSi',
-        demo: 'https://dribbble.com/Alien_pixels'
+        title: 'First React App Social Network',
+        github: 'https://github.com/YuliyaSi/firstReactApp',
+        demo: ''
     },
     {
         id: 5,
         image: IMG5,
-        title: 'Chart infographics in Figma',
-        github: 'https://github.com/YuliyaSi',
-        demo: 'https://dribbble.com/Alien_pixels'
+        title: 'React Chat App',
+        github: 'https://github.com/YuliyaSi/chat-app-first',
+        demo: ''
     },
     {
         id: 6,
         image: IMG6,
-        title: 'Chart templates',
-        github: 'https://github.com/YuliyaSi',
-        demo: 'https://dribbble.com/Alien_pixels'
+        title: 'E-commerce Shop (in progress)',
+        github: 'https://github.com/YuliyaSi/e-commerce-1',
+        demo: ''
     },
 ];
-
-export const reviews = [
-    {
-        id: 1,
-        avatar: AVT1,
-        name: 'Tina Snow',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium adipisci aliquam animi commodi consectetur cum dolor illum ipsa, nisi recusandae sit unde veniam. Ab aliquid architecto eligendi explicabo, facere, fuga laboriosam laudantium libero maxime modi officia quae, quia repellendus soluta suscipit tempora velit. Aliquid earum eligendi explicabo officia perferendis!'
-    },
-    {
-        id: 2,
-        avatar: AVT2,
-        name: 'Shatta Wale',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium adipisci aliquam animi commodi consectetur cum dolor illum ipsa, nisi recusandae sit unde veniam. Ab aliquid architecto eligendi explicabo, facere, fuga laboriosam laudantium libero maxime modi officia quae, quia repellendus soluta suscipit tempora velit. Aliquid earum eligendi explicabo officia perferendis!'
-    },
-    {
-        id: 3,
-        avatar: AVT3,
-        name: 'Kwame Despite',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium adipisci aliquam animi commodi consectetur cum dolor illum ipsa, nisi recusandae sit unde veniam. Ab aliquid architecto eligendi explicabo, facere, fuga laboriosam laudantium libero maxime modi officia quae, quia repellendus soluta suscipit tempora velit. Aliquid earum eligendi explicabo officia perferendis!'
-    },
-    {
-        id: 4,
-        avatar: AVT4,
-        name: 'Rick Morti',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium adipisci aliquam animi commodi consectetur cum dolor illum ipsa, nisi recusandae sit unde veniam. Ab aliquid architecto eligendi explicabo, facere, fuga laboriosam laudantium libero maxime modi officia quae, quia repellendus soluta suscipit tempora velit. Aliquid earum eligendi explicabo officia perferendis!'
-    },
-]

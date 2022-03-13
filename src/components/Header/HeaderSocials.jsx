@@ -4,9 +4,9 @@ import {BsGithub, BsInstagram, BsLinkedin} from "react-icons/bs";
 const HeaderSocials = () => {
     return (
         <div className={'header__socials'}>
-            <a href="https://linkedin.com" target={'_blank'} rel="noreferrer"><BsLinkedin/></a>
-            <a href="https://github.com" target={'_blank'} rel="noreferrer"><BsGithub/></a>
-            <a href="https://instagram.com" target={'_blank'} rel="noreferrer"><BsInstagram/></a>
+            <a href="https://www.linkedin.com/in/yuliyasidarenka/" target={'_blank'} rel="noreferrer"><BsLinkedin/></a>
+            <a href="https://github.com/YuliyaSi" target={'_blank'} rel="noreferrer"><BsGithub/></a>
+            <a href="https://www.instagram.com/yulia_sidorenko_1102/" target={'_blank'} rel="noreferrer"><BsInstagram/></a>
         </div>
     );
 }

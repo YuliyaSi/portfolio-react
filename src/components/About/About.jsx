@@ -1,9 +1,9 @@
 import React from 'react';
 import "./About.css"
-import me from "../../assets/me-about.jpg"
+import me from "../../assets/about-yuliya.png"
 import {FaAward} from "react-icons/fa";
-import {FiUsers} from "react-icons/fi";
 import {VscFolderLibrary} from "react-icons/vsc";
+import {MdReduceCapacity} from "react-icons/md";
 
 const About = () => {
     return (
@@ -29,20 +29,21 @@ const About = () => {
                         </article>
 
                         <article className={'about__card'}>
-                            <FiUsers className={'about__icon'}/>
-                            <h5>Clients</h5>
-                            <small>200+</small>
+                            <MdReduceCapacity className={'about__icon'}/>
+                            <h5>Education</h5>
+                            <small>on my own</small>
                         </article>
 
                         <article className={'about__card'}>
                             <VscFolderLibrary className={'about__icon'}/>
                             <h5>Projects</h5>
-                            <small>80+</small>
+                            <small>10+</small>
                         </article>
                     </div>
 
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut commodi corporis, cupiditate dignissimos harum ipsa quisquam tempore veniam voluptate. Animi, aut culpa eligendi incidunt inventore laborum libero maiores quos tenetur? Alias error, esse ipsam minima ut voluptas? Alias amet aut doloribus facere iste maxime placeat vel. Hic impedit, omnis!
+                        During the last 7 years I worked as a cook, where I achieved some success, but due to an accident, after which I got a disability, I had to leave this job and look for a different way in my life. And finally I found myself in programming.
+                        I started to learn on my own, then I finished the JavaScript online course, I have a some small projects, now I'm learning React. Everything what I do is uploaded to GitHub using Git bash or the WebStorm Terminal. I also try to use different CSS libraries like Bootstrap5, MUI and want to learn Tailwind.
                     </p>
 
                     <a href="#contact" className={'btn btn-primary'}>Let's Talk</a>
