@@ -1,9 +1,32 @@
 import React from 'react';
 import "./Footer.css"
+import {BsFacebook, BsInstagram} from "react-icons/bs";
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <footer>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a href="#" className={'footer__logo'}>Yuliya Sidarenka</a>
+
+            <ul className={'permalinks'}>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div className="footer__socials">
+                <a href="https://facebook.com"><BsFacebook/></a>
+                <a href="https://instagram.com"><BsInstagram/></a>
+            </div>
+
+            <div className="footer__copyright">
+                <small>&copy; Yuliya Sidarenka. All rights reserved.</small>
+            </div>
+        </footer>
     );
 }
 

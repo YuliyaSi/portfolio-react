@@ -22,8 +22,8 @@ const Testimonials = () => {
                     navigation
                     pagination={{ clickable: true }}
                     className="container testimonial__container">
-                {reviews.map(item => <SwiperSlide>
-                    <article className="testimonial" key={item.id}>
+                {reviews.map(item => <SwiperSlide key={item.id}>
+                    <article className="testimonial">
                         <div className="client__avatar">
                             <img src={item.avatar} alt="client"/>
                         </div>
