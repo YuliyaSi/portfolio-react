@@ -35,7 +35,7 @@ const SoftSkills = () => {
 
                 <article className="soft">
                     <div className="soft__head">
-                        <h3>Organizational Skills</h3>
+                        <h3>Management</h3>
                     </div>
                     <ul className="soft__list">
                         <li>

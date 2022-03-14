@@ -42,8 +42,7 @@ const About = () => {
                     </div>
 
                     <p>
-                        During the last 7 years I worked as a cook, where I achieved some success, but due to an accident, after which I got a disability, I had to leave this job and look for a different way in my life. And finally I found myself in programming.
-                        I started to learn on my own, then I finished the JavaScript online course, I have a some small projects, now I'm learning React. Everything what I do is uploaded to GitHub using Git bash or the WebStorm Terminal. I also try to use different CSS libraries like Bootstrap5, MUI and want to learn Tailwind.
+                        For the last 7 years, I used to work as a chef. I had succeeded in this are but unfortunately, I was injured at work and had to face a new reality as a disabled person. I am not able to work as a chef anymore, but I think it's a good opportunity for a new start in my life. That's why I decided to learn software engineering and I love it! First I started to learn JavaScript on my own, then I took online courses. I am constantly facing new challenges and right now I am learning React and I think I am succeeding in it. In my free time, I create small hands-on projects which you can check on my GitHub. If you are interested in my candidacy please fill free to contact me with any way you want.
                     </p>
 
                     <a href="#contact" className={'btn btn-primary'}>Let's Talk</a>
