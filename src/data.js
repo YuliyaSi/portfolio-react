@@ -25,7 +25,7 @@ export const data = [
         image: IMG3,
         title: 'React Porfolio with EmailjsAPI',
         github: 'https://github.com/YuliyaSi/portfolio-react',
-        demo: ''
+        demo: 'https://yuliyasidarenka-cv.netlify.app/'
     },
     {
         id: 4,
@@ -49,3 +49,5 @@ export const data = [
         demo: ''
     },
 ];
+
+export const softSkills = ['Active listening', 'Patience', 'Open-mindedness', 'Adaptability', 'Problem-solving', 'Critical thinking', 'Time and project management', 'Creativity', 'Self-motivated', 'Accountability', 'Attention to details', 'Active learning']
