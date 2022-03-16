@@ -65,6 +65,22 @@ const Experience = () => {
                         <article className={'experience__details'}>
                             <BsFillPatchCheckFill className={'experience__details-icon'}/>
                             <div>
+                                <h4>Redux-thunk</h4>
+                                <small className={'text-light'}>Beginner</small>
+                            </div>
+                        </article>
+
+                        <article className={'experience__details'}>
+                            <BsFillPatchCheckFill className={'experience__details-icon'}/>
+                            <div>
+                                <h4>Axios</h4>
+                                <small className={'text-light'}>Intermediate</small>
+                            </div>
+                        </article>
+
+                        <article className={'experience__details'}>
+                            <BsFillPatchCheckFill className={'experience__details-icon'}/>
+                            <div>
                                 <h4>Bootstrap</h4>
                                 <small className={'text-light'}>Beginner</small>
                             </div>
@@ -91,6 +107,14 @@ const Experience = () => {
                             <div>
                                 <h4>English</h4>
                                 <small className={'text-light'}>Intermediate</small>
+                            </div>
+                        </article>
+
+                        <article className={'experience__details'}>
+                            <BsFillPatchCheckFill className={'experience__details-icon'}/>
+                            <div>
+                                <h4>Polish</h4>
+                                <small className={'text-light'}>Advanced</small>
                             </div>
                         </article>
 
