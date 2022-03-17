@@ -4,6 +4,7 @@ import IMG3 from "./assets/port-cv.jpg";
 import IMG4 from "./assets/port-network.jpg";
 import IMG5 from "./assets/port-chat.jpg";
 import IMG6 from "./assets/port-commerce.jpg";
+import IMG7 from "./assets/port-game.png";
 
 export const data = [
     {
@@ -18,7 +19,7 @@ export const data = [
         image: IMG2,
         title: 'React Pokedex with using pokeAPI',
         github: 'https://github.com/YuliyaSi/pokedex',
-        demo: ''
+        demo: 'https://yuliyasi-pokedex.netlify.app/'
     },
     {
         id: 3,
@@ -47,6 +48,13 @@ export const data = [
         title: 'E-commerce Shop (in progress)',
         github: 'https://github.com/YuliyaSi/e-commerce-1',
         demo: ''
+    },
+    {
+        id: 7,
+        image: IMG7,
+        title: 'Wordle Game clone',
+        github: 'https://github.com/YuliyaSi/wordle-game',
+        demo: 'https://yuliyasi-wordle.netlify.app'
     },
 ];
 
