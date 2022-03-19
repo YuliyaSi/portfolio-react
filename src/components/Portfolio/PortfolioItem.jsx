@@ -2,10 +2,11 @@ import React from 'react';
 
 const PortfolioItem = ({ item }) => {
     const { image, title, github, demo } = item;
+
     return (
         <article className={'portfolio__item'}>
             <div className="portfolio__item-image">
-                <img src={image} alt="project"/>
+               <img src={image} alt="project"/>
             </div>
             <h3>{title}</h3>
             <div className="portfolio__item-cta">

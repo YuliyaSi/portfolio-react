@@ -2,7 +2,6 @@ import IMG1 from "./assets/port-travel.jpg";
 import IMG2 from "./assets/port-poke.jpg";
 import IMG3 from "./assets/port-cv.jpg";
 import IMG4 from "./assets/port-network.jpg";
-import IMG5 from "./assets/port-chat.jpg";
 import IMG6 from "./assets/port-commerce.jpg";
 import IMG7 from "./assets/port-game.png";
 
@@ -33,13 +32,6 @@ export const data = [
         image: IMG4,
         title: 'First React App Social Network',
         github: 'https://github.com/YuliyaSi/firstReactApp',
-        demo: ''
-    },
-    {
-        id: 5,
-        image: IMG5,
-        title: 'React Chat App',
-        github: 'https://github.com/YuliyaSi/chat-app-first',
         demo: ''
     },
     {
