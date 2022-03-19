@@ -1,6 +1,6 @@
 header {
-    height: 100vh;
-    padding-top: 5rem;
+    height: 70vh;
+    padding-top: 10rem;
     overflow: hidden;
 }
 
@@ -38,20 +38,6 @@ header {
     background: var(--color-primary);
 }
 
-/* === ME === */
-.me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 3rem 1.5rem 1.5rem 1.5rem;
-    visibility: visible;
-}
-
 /* === Scroll down === */
 .scroll__down {
     position: absolute;
@@ -67,14 +53,26 @@ header {
     header {
         height: 100vh;
     }
+    .cta {
+        margin-top: 3.5rem;
+    }
 }
 
 /* === Media queries (small devices) === */
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 60vh;
     }
-    .header__socials, .scroll__down {
+    .header__socials {
+        flex-direction: row;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .header__socials::after {
+        content: '';
+        background: transparent;
+    }
+    .scroll__down {
         display: none;
     }
 }

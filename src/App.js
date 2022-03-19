@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import About from "./components/About/About";
@@ -7,19 +7,28 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import SoftSkills from "./components/SoftSkills/SoftSkills";
+import Preloader from "./components/Preloader";
 
 const App = () => {
+    const [init, setInit] = useState(true);
+
+    useEffect(() => {
+        setInit(false)
+    }, []);
+
+    if (init) return <Preloader/>
+
     return (
-        <>
-            <Header/>
-            <Nav/>
-            <About/>
-            <Experience/>
-            <SoftSkills/>
-            <Portfolio/>
-            <Contact/>
-            <Footer/>
-        </>
+         <>
+                <Header/>
+                <Nav/>
+                <About/>
+                <Experience/>
+                <SoftSkills/>
+                <Portfolio/>
+                <Contact/>
+                <Footer/>
+            </>
     );
 }
 
