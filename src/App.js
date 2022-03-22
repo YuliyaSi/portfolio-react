@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import "./App.css"
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import About from "./components/About/About";
@@ -19,16 +20,18 @@ const App = () => {
     if (init) return <Preloader/>
 
     return (
-         <>
-                <Header/>
-                <Nav/>
-                <About/>
-                <Experience/>
-                <SoftSkills/>
-                <Portfolio/>
-                <Contact/>
-                <Footer/>
-            </>
+        <>
+            <div className="background"/>
+            <Header/>
+            <Nav/>
+            <About/>
+            <Experience/>
+            <SoftSkills/>
+            <Portfolio/>
+            <Contact/>
+            <Footer/>
+
+        </>
     );
 }
 

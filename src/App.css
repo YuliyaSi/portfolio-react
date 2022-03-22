@@ -1,0 +1,5 @@
+.app__container {
+    position: absolute;
+    top: 0;
+    width: var(--container-width-lg);
+}
