@@ -8,20 +8,20 @@ const Header = () => {
     return (
         <header>
             <div className="container header__container">
-                <section className="header__photo">
+                <div className="header__photo">
                     <div className="header__photo-img">
                         <img src={me} alt="me"/>
                     </div>
-                </section>
-                <section className="header__info">
-                    <h5>Hello, I'm</h5>
-                    <h1>Yuliya Sidarenka</h1>
-                    <h5 className="text-light">Junior Frontend React Developer</h5>
+                </div>
+                <div className="header__info">
+                    <div className="header__info-name">
+                        <p>Yuliya</p>
+                        <p>Sidarenka</p>
+                    </div>
+                    <h2>Junior Frontend React Developer</h2>
                     <CTA/>
-                    <HeaderSocials/>
-                    <a href="#contact" className={"scroll__down"}>Scroll down</a>
-                </section>
-
+                </div>
+                <HeaderSocials/>
             </div>
         </header>
     );

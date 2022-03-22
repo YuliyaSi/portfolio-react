@@ -13,7 +13,7 @@
 :root {
   --color-bg: #fff;
   --color-bg-variant: whitesmoke;
-  --color-primary: #f2b4bc;
+  --color-primary: #c7998c;
   --color-primary-variant: #f8cd2a;
   --color-text: #000;
   --color-lite: #c4d6b7;
@@ -33,7 +33,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: var(--color-bg);
+  background: var(--color-lite);
   color: var(--color-text);
   line-height: 1.7;
 }
