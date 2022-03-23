@@ -85,7 +85,7 @@ header {
 /* === Media queries (medium devices) === */
 @media screen and (max-width: 1024px) {
     header {
-        height: 80vh;
+        height: 50vh;
         padding-top: 3rem;
     }
     .header__container {
@@ -93,11 +93,12 @@ header {
         grid-template-areas: 'info photo';
     }
     .header__socials {
+        position: absolute;
         flex-direction: row;
-        left: 80%;
-        bottom: 50%;
-        margin-top: 4rem;
-        transform: translate(-30%, 30%);
+        left: 0;
+        top: 0;
+        margin-top: 1rem;
+        transform: translate(10%, -50%);
     }
     .header__info-name {
         display: flex;
