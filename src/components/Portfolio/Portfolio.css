@@ -1,14 +1,24 @@
-.portfolio__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+.container.portfolio__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    height: auto;
+    width: 50vw;
 }
 .portfolio__item {
-    background: var(--color-bg-variant);
+    backdrop-filter: blur(13px) saturate(200%);
+    -webkit-backdrop-filter: blur(13px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.46);
+    border: 1px solid rgba(209, 213, 219, 0.3);
     padding: 1.2rem;
     border-radius: 2rem;
-    border: 1px solid transparent;
     transition: var(--transition);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .portfolio__item:hover {
     border-color: var(--color-primary-variant);
@@ -17,30 +27,50 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
-    height: 15rem;
+    width: 25rem;
+    height: 25rem;
 }
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 0 2rem;
     height: 3rem;
 }
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.swiper-slide.swiper-slide-active {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 /* === Media queries (medium devices) === */
 @media screen and (max-width: 1024px) {
-   .portfolio__container {
-       grid-template-columns: 1fr 1fr;
+    .container.portfolio__container {
+        width: 100vw;
        gap: 1.2rem;
    }
+    .portfolio__item-image img {
+        object-fit: contain;
+    }
 }
 
 /* === Media queries (small devices) === */
 @media screen and (max-width: 600px) {
-    .portfolio__container {
-        grid-template-columns: 1fr;
+    .container.portfolio__container {
+        width: 100vw;
         gap: 1.2rem;
+    }
+    .portfolio__item-image {
+        width: 15rem;
+        height: 15rem;
+    }
+    .portfolio__item-image img {
+        object-fit: contain;
+    }
+    .portfolio__item h3 {
+        height: auto;
     }
 }
