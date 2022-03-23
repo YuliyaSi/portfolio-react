@@ -1,25 +1,8 @@
+#about {
+    margin: 1rem;
+}
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
-}
-.about__me {
-    width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
-    display: grid;
-    place-items: center;
-}
-.about__me-image {
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
-    height: 100%;
-}
-.about__me-image:hover {
-    transform: rotate(0);
 }
 .about__cards {
     display: grid;
@@ -27,9 +10,11 @@
     gap: 1.5rem;
 }
 .about__card {
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
+    backdrop-filter: blur(13px) saturate(200%);
+    -webkit-backdrop-filter: blur(13px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.46);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
@@ -39,23 +24,24 @@
     border-color: var(--color-primary-variant);
     cursor: default;
 }
-
 .about__icon {
     color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
-
 .about__card h5 {
     font-size: 0.95rem;
 }
 .about__card small {
     font-size: 0.7rem;
-    color: var(--color-lite);
+    color: var(--color-primary);
 }
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-lite);
+    color: var(--color-text);
+}
+.about__content {
+    text-align: center;
 }
 
 /* === Media queries (medium devices) === */
@@ -64,10 +50,6 @@
         grid-template-columns: 1fr;
         gap: 0;
     }
-    .about__me {
-        width: 50%;
-        margin: 2rem auto 4rem;
-    }
     .about__content p {
         margin: 1rem 0 1.5rem;
     }
@@ -75,10 +57,6 @@
 
 /* === Media queries (small devices) === */
 @media screen and (max-width: 600px) {
-    .about__me {
-        width: 65%;
-        margin: 0 auto 3rem;
-    }
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
