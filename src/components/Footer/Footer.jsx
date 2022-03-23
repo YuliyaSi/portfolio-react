@@ -5,9 +5,6 @@ import {BsFacebook, BsInstagram} from "react-icons/bs";
 const Footer = () => {
     return (
         <footer>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a href="#" className={'footer__logo'}>Yuliya Sidarenka</a>
-
             <ul className={'permalinks'}>
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <li><a href="#">Home</a></li>
